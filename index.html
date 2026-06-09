@@ -1,10 +1,62 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>Dark Moon Rocks</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171221">
+  <meta name="description" content="Radio, audio, stories and reflections from Dark Moon Rocks.">
+  <title>Dark Moon Rocks</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
-<h1>Dark Moon Rocks</h1>
-<p>Welcome to the Temple Without Walls.</p>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Dark Moon Rocks home">
+      <img src="icons/icon.svg" alt="" width="44" height="44">
+      <span>Dark Moon Rocks</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="radio.html">Radio</a>
+      <a href="shows.html">Shows</a>
+      <a href="podcasts.html">Podcasts</a>
+      <a href="stories.html">Stories</a>
+      <a href="newsletters.html">Newsletters</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <p class="eyebrow">The Temple Without Walls</p>
+      <h1>Listen. Rest. Reconnect.</h1>
+      <p class="intro">Welcome to Dark Moon Rocks, a quiet home for radio, conversations, stories and meditations.</p>
+      <div class="button-row">
+        <a class="button" href="radio.html">Listen live</a>
+        <button class="button button-secondary" id="install-button" type="button" hidden>Install app</button>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="explore-title">
+      <p class="eyebrow">Explore</p>
+      <h2 id="explore-title">Choose your path</h2>
+      <div class="card-grid">
+        <a class="card card-link" href="radio.html"><span class="card-icon">●</span><h3>Live Radio</h3><p>Tune in to the current Dark Moon Rocks broadcast.</p></a>
+        <a class="card card-link" href="shows.html"><span class="card-icon">◐</span><h3>Audio Shows</h3><p>Browse recorded shows and special audio sessions.</p></a>
+        <a class="card card-link" href="podcasts.html"><span class="card-icon">◌</span><h3>Podcasts</h3><p>Listen to conversations and recurring podcast series.</p></a>
+        <a class="card card-link" href="stories.html"><span class="card-icon">✦</span><h3>Stories &amp; Meditations</h3><p>Pause with spoken stories and guided meditations.</p></a>
+        <a class="card card-link" href="newsletters.html"><span class="card-icon">◇</span><h3>Newsletters</h3><p>Read letters and seasonal notes from Dark Moon Rocks.</p></a>
+        <a class="card card-link" href="blog.html"><span class="card-icon">☾</span><h3>Blog Posts</h3><p>Explore the latest writing, news and reflections.</p></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Dark Moon Rocks · The Temple Without Walls</p>
+    <p class="small">Made with care and available offline.</p>
+  </footer>
 </body>
 </html>
