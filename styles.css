@@ -1,32 +1,97 @@
 body {
-    background: #111;
-    color: #eee;
+    background-color: #0d1117;
+    color: #d8d8d8;
     font-family: Georgia, serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.8;
     text-align: center;
-    padding: 40px;
 }
 
 h1 {
-    font-size: 3rem;
+    text-align: center;
+    color: #e6d5a8;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+nav {
+    text-align: center;
+    margin: 40px 0;
+}
+
+nav a {
+    color: #9fd3ff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 12px;
 }
 
 .tagline {
+    text-align: center;
     font-style: italic;
-    color: #bbb;
-}
-.hero-image {
-    width: 100%;
-    max-width: 700px;
-    height: auto;
-    display: block;
-    margin: 40px auto;
-    border-radius: 12px;
-    box-shadow: 0 0 30px rgba(255,255,255,0.15);
+    color: #b5b5b5;
+    margin-bottom: 30px;
 }
 
-max-width: 800px;
-    margin: 40px auto;
-    text-align: left;
-    line-height: 1.8;
-    font-size: 1.1rem;
+.content {
+    background: rgba(255,255,255,0.03);
+    padding: 30px;
+    border-radius: 15px;
+}
+.big-button {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.big-button a {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #4b2a8c, #d46ac2, #f0d890);
+    color: #fff8dc;
+    font-weight: bold;
+    box-shadow: 0 0 25px rgba(212,106,194,0.6);
+    transition: all 0.3s ease;
+}
+
+.big-button a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(240,216,144,0.8);
+}.small-button {
+    display: inline-block;
+    padding: 10px 22px;
+    margin: 8px;
+    background: linear-gradient(135deg, #5c3a9e, #8f5bc7);
+    color: #f5e6c8;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(143, 91, 199, 0.4);
+    transition: all 0.3s ease;
+}
+
+.small-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 18px rgba(143, 91, 199, 0.8);
+    background: linear-gradient(135deg, #7b52c0, #b27de3);
 }
