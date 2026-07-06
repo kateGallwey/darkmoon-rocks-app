@@ -95,3 +95,15 @@ img {
     box-shadow: 0 0 18px rgba(143, 91, 199, 0.8);
     background: linear-gradient(135deg, #7b52c0, #b27de3);
 }
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #999;
+    border-top: 1px solid #444;
+}
+
+footer p {
+    margin: 5px 0;
+}
