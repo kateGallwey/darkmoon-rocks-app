@@ -7,21 +7,31 @@ body {
     padding: 20px;
     line-height: 1.8;
     text-align: center;
+
+    font-size: 1.15rem;
 }
 
+/* ---------- Headings ---------- */
+
 h1 {
-    text-align: center;
     color: #e6d5a8;
     font-size: 3em;
     margin-bottom: 10px;
+}
+
+h2 {
+    color: #e6d5a8;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 p {
     margin-bottom: 20px;
 }
 
+/* ---------- Navigation ---------- */
+
 nav {
-    text-align: center;
     margin: 40px 0;
 }
 
@@ -29,12 +39,14 @@ nav a {
     color: #9fd3ff;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 1.1em;
+    font-size: 1.2rem;
 }
 
 nav a:hover {
-    color: #ffffff;
+    color: white;
 }
+
+/* ---------- Images ---------- */
 
 img {
     max-width: 100%;
@@ -44,8 +56,9 @@ img {
     border-radius: 12px;
 }
 
+/* ---------- Intro ---------- */
+
 .tagline {
-    text-align: center;
     font-style: italic;
     color: #b5b5b5;
     margin-bottom: 30px;
@@ -56,8 +69,10 @@ img {
     padding: 30px;
     border-radius: 15px;
 }
+
+/* ---------- Live Radio Button ---------- */
+
 .big-button {
-    text-align: center;
     margin: 50px 0;
 }
 
@@ -67,43 +82,102 @@ img {
     font-size: 1.4rem;
     text-decoration: none;
     border-radius: 20px;
-    background: linear-gradient(135deg, #4b2a8c, #d46ac2, #f0d890);
+    background: linear-gradient(135deg,#4b2a8c,#d46ac2,#f0d890);
     color: #fff8dc;
     font-weight: bold;
-    box-shadow: 0 0 25px rgba(212,106,194,0.6);
-    transition: all 0.3s ease;
+    box-shadow: 0 0 25px rgba(212,106,194,.6);
+    transition: .3s;
 }
 
 .big-button a:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 40px rgba(240,216,144,0.8);
-}.small-button {
+    box-shadow: 0 0 40px rgba(240,216,144,.8);
+}
+
+/* ---------- Hub Buttons ---------- */
+
+.small-button {
     display: inline-block;
-    padding: 10px 22px;
-    margin: 8px;
-    background: linear-gradient(135deg, #5c3a9e, #8f5bc7);
+    min-width: 340px;
+    padding: 18px 28px;
+    margin: 12px;
+
+    background: linear-gradient(135deg,#5c3a9e,#8f5bc7);
     color: #f5e6c8;
     text-decoration: none;
-    border-radius: 10px;
+
+    border-radius: 14px;
+
+    font-size: 1.35rem;
     font-weight: bold;
-    box-shadow: 0 0 10px rgba(143, 91, 199, 0.4);
-    transition: all 0.3s ease;
+
+    box-shadow: 0 0 15px rgba(143,91,199,.45);
+    transition: .3s;
 }
 
 .small-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 0 18px rgba(143, 91, 199, 0.8);
-    background: linear-gradient(135deg, #7b52c0, #b27de3);
+    transform: translateY(-3px);
+    box-shadow: 0 0 25px rgba(143,91,199,.75);
+    background: linear-gradient(135deg,#7b52c0,#b27de3);
 }
+
+/* ---------- Footer ---------- */
+
 footer {
-    margin-top: 50px;
+    margin-top: 60px;
     padding: 20px;
-    text-align: center;
-    font-size: 0.9em;
-    color: #999;
     border-top: 1px solid #444;
+    color: #999;
+    font-size: .9rem;
 }
 
 footer p {
     margin: 5px 0;
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width:700px){
+
+    body{
+        padding:16px;
+        font-size:18px;
+    }
+
+    h1{
+        font-size:2.2rem;
+    }
+
+    h2{
+        font-size:1.8rem;
+    }
+
+    nav{
+        display:flex;
+        flex-direction:column;
+        gap:12px;
+    }
+
+    nav a{
+        font-size:1.3rem;
+        margin:0;
+    }
+
+    .big-button a{
+        display:block;
+        width:100%;
+        box-sizing:border-box;
+        font-size:1.3rem;
+    }
+
+    .small-button{
+        display:block;
+        width:100%;
+        min-width:0;
+        margin:12px 0;
+        padding:20px;
+        box-sizing:border-box;
+        font-size:1.25rem;
+    }
+
 }
