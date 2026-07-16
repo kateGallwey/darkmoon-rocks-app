@@ -6,12 +6,7 @@ JavaScript, with no framework or build step.
 ## Pages
 
 - `index.html` - home page
-- `radio.html` - live radio player
-- `shows.html` - recorded audio shows
-- `podcasts.html` - podcast series
-- `stories.html` - stories and meditations
-- `newsletters.html` - newsletter signup and archive links
-- `blog.html` - blog post list
+- `doorways.html` - links
 - `offline.html` - message shown when an uncached page is unavailable
 
 ## The easiest way to edit content
