@@ -8,7 +8,7 @@ https://app.darkmoon.rocks
 
 A lightweight Progressive Web App built with plain HTML, CSS and JavaScript.
 
-## Pages
+## Main Files
 
 - `index.html` - home page
 - `doorways.html` - links
