@@ -1,7 +1,12 @@
-# Dark Moon Rocks PWA
+# Dark Moon Radio App
 
-A small, installable website for Dark Moon Rocks. It uses plain HTML, CSS and
-JavaScript, with no framework or build step.
+The official Progressive Web App for Dark Moon Rocks.
+
+## Live App
+
+https://app.darkmoon.rocks
+
+A lightweight Progressive Web App built with plain HTML, CSS and JavaScript.
 
 ## Pages
 
